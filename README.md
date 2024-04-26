@@ -1,13 +1,10 @@
 
 
 
-
-
-
 - Open the terminal screen and paste the code below and run it.
 
   ```
-  git clone https://github.com/immanuel1987/lourdushrinebackend.git
+  git clone https://github.com/Muniraj132/FriaryParish-Backend.git
   
   ```
 ## Installation
