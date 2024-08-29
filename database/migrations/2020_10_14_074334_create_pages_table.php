@@ -11,7 +11,7 @@ class CreatePagesTable extends Migration
         Schema::create('pages', function (Blueprint $table) {
             $table->id();
             $table->unsignedBigInteger('media_id')->nullable();
-            $table->integer('status')->default(0);
+            $table->integer('status')->default(1);
             $table->string('title');
             $table->longText('content')->nullable();
             $table->integer('hit')->default(0);

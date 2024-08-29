@@ -18,7 +18,7 @@ return new class extends Migration
             $table->unsignedBigInteger('category_id');
             $table->unsignedBigInteger('media_id')->nullable();
             $table->string('file_id')->nullable();
-            $table->integer('status')->default(0);
+            $table->integer('status')->default(1);
             $table->string('title');
             $table->longText('content')->nullable();
             $table->date('eventdate')->nullable();

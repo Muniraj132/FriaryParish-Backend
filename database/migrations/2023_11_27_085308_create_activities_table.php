@@ -18,7 +18,7 @@ return new class extends Migration
             $table->unsignedBigInteger('category_id');
             $table->unsignedBigInteger('user_id');
             $table->unsignedBigInteger('media_id')->nullable();
-            $table->integer('status')->default(0);
+            $table->integer('status')->default(1);
             $table->date('activitydate')->nullable();
             $table->string('title');
             $table->longText('content')->nullable();

@@ -7,7 +7,7 @@
     </div>
     <!-- Default to the left -->
     <center>
-    <strong>{{ __('main.Copyright') }} &copy; {{ date('Y') }} <a href="/admin/home">Welcome to Lourdes Shrine Perambur  </a>.</strong> {{ __('main.All rights reserved.') }}
+    <strong>{{ __('main.Copyright') }} &copy; {{ date('Y') }} <a href="https://friaryparish.com/" target="_blank" rel="noopener noreferrer">Welcome to St. ANTHONY’S FRIARY CHURCH  </a>.</strong> {{ __('main.All rights reserved.') }}
 </center>
     </footer>
 </div>

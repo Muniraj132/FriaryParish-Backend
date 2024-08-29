@@ -17,7 +17,7 @@ return new class extends Migration
             $table->id();
             $table->string('title');
             $table->string('link');
-            $table->integer('status')->default(0);
+            $table->integer('status')->default(1);
             $table->integer('Position')->default(0);
             $table->softDeletes();
             $table->timestamps();
